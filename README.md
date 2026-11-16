@@ -30,7 +30,7 @@ try { & ..\..\.venv\Scripts\python.exe -m celery -A app.workers.celery_app:celer
 终端三启动前端：
 
 ```powershell
- 
+ npm.cmd run dev
 ```
 
 浏览器打开 `http://127.0.0.1:5173`。接口文档位于 `http://127.0.0.1:8000/docs`。
