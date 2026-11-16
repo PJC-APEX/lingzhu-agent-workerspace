@@ -1,0 +1,11 @@
+{
+  "filename": "LingzhuJianyingImporter.exe",
+  "platform": "Windows x64",
+  "bytes": 39918512,
+  "sha256": "057bfbc42b5db2366bac11de1e18f27326f59258d6a81c4031ba948ee45eb7ab",
+  "gui_startup": "passed frozen Tk window initialization with system-only PATH",
+  "media_import": "passed isolated frozen EXE real PNG WAV SRT",
+  "tests": "11 passed",
+  "signed": false,
+  "desktop_jianying_open": "not verified"
+}

@@ -1,0 +1,1 @@
+DEFAULT_IMAGE_STYLE_PROMPT_VERSION_ID = "agent_image_style_default_v1"

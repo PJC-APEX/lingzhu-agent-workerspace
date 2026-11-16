@@ -1,0 +1,64 @@
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+.Python
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.pytest_tmp/
+.mypy_cache/
+.ruff_cache/
+.tox/
+htmlcov/
+.coverage
+.coverage.*
+
+# Node and frontend build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Runtime data, databases, and logs
+apps/server/data/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+*.log.*
+
+# Local editor and operating system files
+# Local recovery archives can contain .env and Git metadata.
+recovery-backups/
+baseline-run.log
+importer-build.log
+deploy/.env.docker
+releases/windows/*.exe
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
